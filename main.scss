@@ -302,8 +302,15 @@
                         transform: translate(0,-70px);
                         transition: all 1.2s ease-in-out;
                     }
+                    .apple_img_hiidin{
+                        border-radius: 179px;
+                        transition: all 1.2s ease-in-out;
+                    }
                     
                 }
+                .apple_img_hiidin:hover{
+                       transform: translateY(100px)scale(1);
+                    }
                  .apple_img2:hover{
                        transform: translateY(100px)scale(1);
                     }

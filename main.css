@@ -280,6 +280,13 @@ main .section3 .container .apple_box .apple_left .apple_cards .apple_img2 {
   transform: translate(0, -70px);
   transition: all 1.2s ease-in-out;
 }
+main .section3 .container .apple_box .apple_left .apple_cards .apple_img_hiidin {
+  border-radius: 179px;
+  transition: all 1.2s ease-in-out;
+}
+main .section3 .container .apple_box .apple_left .apple_img_hiidin:hover {
+  transform: translateY(100px) scale(1);
+}
 main .section3 .container .apple_box .apple_left .apple_img2:hover {
   transform: translateY(100px) scale(1);
 }
